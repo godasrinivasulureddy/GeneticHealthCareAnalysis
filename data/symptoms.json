@@ -1,0 +1,37 @@
+{
+  "Thalassemia": {
+    "keywords": ["thalassemia", "thalassaemia", "thal"],
+    "symptoms": ["pale", "yellowish skin", "weakness", "fatigue", "enlarged spleen", "delayed puberty"],
+    "summary": [
+      "Thalassemia is a genetic blood disorder affecting hemoglobin production.",
+      "It often causes anemia and can lead to organ enlargement.",
+      "Severity varies with specific gene mutations."
+    ]
+  },
+  "Sickle Cell Anemia": {
+    "keywords": ["sickle", "sickle cell", "sickling"],
+    "symptoms": ["pain", "swelling", "frequent infections", "fatigue"],
+    "summary": [
+      "Sickle cell anemia causes red blood cells to become sickle-shaped.",
+      "It leads to pain crises and increased infection risk.",
+      "Lifelong management and specialist care are usually required."
+    ]
+  },
+  "Asthma": {
+    "keywords": ["asthma", "wheezing", "shortness of breath"],
+    "symptoms": ["wheezing", "cough", "chest tightness", "shortness of breath"],
+    "summary": [
+      "Asthma affects the airways and causes breathing difficulties.",
+      "Triggers include allergens, cold air, and exercise.",
+      "Treatment includes inhalers and avoiding triggers."
+    ]
+  },
+  "General Illness": {
+    "keywords": [],
+    "symptoms": [],
+    "summary": [
+      "Symptoms are non-specific; seek clinical evaluation for diagnosis.",
+      "This tool provides educational predictions only."
+    ]
+  }
+}

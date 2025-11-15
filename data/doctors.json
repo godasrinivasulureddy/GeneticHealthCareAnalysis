@@ -1,0 +1,22 @@
+{
+  "Thalassemia": {
+    "recommend": true,
+    "specialist": "Hematologist",
+    "note": "Refer to a hematologist for tests like CBC, HPLC. Schedule appointment."
+  },
+  "Sickle Cell Anemia": {
+    "recommend": true,
+    "specialist": "Hematologist",
+    "note": "See a hematologist for management and pain crisis planning."
+  },
+  "Asthma": {
+    "recommend": true,
+    "specialist": "Pulmonologist",
+    "note": "Pulmonologist for lung function tests and inhaler prescription."
+  },
+  "General Illness": {
+    "recommend": false,
+    "specialist": "General Practitioner",
+    "note": "Visit a GP for initial evaluation."
+  }
+}

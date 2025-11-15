@@ -1,0 +1,19 @@
+{
+  "Thalassemia": [
+    "Foods rich in folate (leafy greens, beans).",
+    "Vitamin C rich foods to help iron absorption (fruits like orange).",
+    "Avoid excessive iron supplements unless doctor advises."
+  ],
+  "Sickle Cell Anemia": [
+    "Stay hydrated; fluids reduce sickling risk.",
+    "Foods high in folate and iron (if prescribed).",
+    "Balanced diet with fruits and vegetables."
+  ],
+  "Asthma": [
+    "Maintain a balanced diet; avoid known food triggers.",
+    "Foods rich in antioxidants (fruits, vegetables)."
+  ],
+  "General Illness": [
+    "Eat balanced meals, stay hydrated, and rest."
+  ]
+}

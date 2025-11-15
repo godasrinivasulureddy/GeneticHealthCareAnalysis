@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Genetic Health Care AI - Demo</title>
+  <link href="/static/style.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">Genetic Health Care AI</div>
+    <div class="signin">Signed in as demo</div>
+  </header>
+
+  <main class="container">
+    <!-- Input card -->
+    <section class="card">
+      <h2>Health Analysis Input</h2>
+      <label for="lang">Select Language</label>
+      <select id="lang">
+        <option value="en" selected>English</option>
+        <option value="hi">Hindi</option>
+        <option value="te">Telugu</option>
+      </select>
+
+      <label for="usertext">Your Symptoms / Health Concerns</label>
+      <textarea id="usertext" rows="5" placeholder="Describe symptoms, how you're feeling..."></textarea>
+
+      <div class="controls">
+        <button id="voiceBtn">🎤 Voice Input</button>
+        <button id="submitBtn" class="primary">Analyze Health</button>
+      </div>
+      <div class="note">This analysis is for educational purposes only. Always consult a healthcare professional.</div>
+    </section>
+
+    <!-- Results container -->
+    <section id="results" style="display:none;">
+      <div class="card">
+        <h3 id="diseaseLabel">—</h3>
+        <div class="badge" id="riskBadge"></div>
+
+        <h4>Basic Symptoms</h4>
+        <ul id="basicSymptoms"></ul>
+      </div>
+
+      <div class="card">
+        <h4>Analysis Summary <button id="playSummary">🔊</button></h4>
+        <ul id="analysisSummary"></ul>
+      </div>
+
+      <div class="card">
+        <h4>Risk Analysis</h4>
+        <div class="charts">
+          <canvas id="pieChart" width="300" height="200"></canvas>
+          <canvas id="barChart" width="300" height="200"></canvas>
+        </div>
+        <div id="riskExplanation"></div>
+      </div>
+
+      <div class="card">
+        <h4>Food Recommendations</h4>
+        <ul id="foodRec"></ul>
+      </div>
+
+      <div class="card">
+        <h4>Doctor Consultation</h4>
+        <div id="doctorSection"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    Contact: 238x1a4226@khitguntur.ac.in | CSP-MASH-TEAM-KHIT-COLLEGE
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
